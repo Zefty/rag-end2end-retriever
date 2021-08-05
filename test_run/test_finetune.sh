@@ -17,7 +17,7 @@ python finetune_rag.py \
     --model_name_or_path facebook/rag-token-base \
     --model_type rag_token \
     --fp16 \
-    --gpus 2  \
+    --gpus 1  \
     --profile \
     --do_train \
     --end2end \
